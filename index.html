@@ -4,201 +4,182 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yinfeng Li's Portfolio</title>
+  <style>
+    body {
+      background-color: #0d1117; /* GitHub's dark background */
+      color: #c9d1d9; /* GitHub's dark text color */
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    a {
+      color: #58a6ff; /* GitHub's link color */
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    h1, h2, h3, h4 {
+      color: #c9d1d9;
+      border-bottom: 1px solid #30363d;
+      padding-bottom: .3em;
+      margin-top: 24px;
+      margin-bottom: 16px;
+    }
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #30363d;
+      margin: 32px 0;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    td {
+      padding: 15px;
+      vertical-align: top;
+      width: 50%;
+    }
+    details {
+        margin-bottom: 10px;
+    }
+    summary {
+        cursor: pointer;
+        font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-# 👋 Hello, I'm Yinfeng Li (李胤锋)
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Yinfeng-Lii/image/main/fs.png" alt="Yinfeng Li's Personal Header Banner">
-</div>
-<div align="center">
-  <br>
-  <a href="#about-me">
-    <img src="https://img.shields.io/badge/-About%20Me-555?style=for-the-badge&logo=user&logoColor=white" alt="About Me"/>
-  </a>&nbsp;
-  <a href="#skills">
-    <img src="https://img.shields.io/badge/-Core%20Skills-555?style=for-the-badge&logo=cogs&logoColor=white" alt="Skills"/>
-  </a>&nbsp;
-  <a href="#projects">
-    <img src="https://img.shields.io/badge/-Projects-555?style=for-the-badge&logo=rocket&logoColor=white" alt="Projects"/>
-  </a>&nbsp;
-  <a href="#contact">
-    <img src="https://img.shields.io/badge/-Contact-555?style=for-the-badge&logo=envelope&logoColor=white" alt="Contact"/>
-  </a>
-  <br>
-</div>
 
-<a name="about-me"></a>
-## 👋 About me 
- 
-- :earth_asia: I am from China.
+  <!-- 个人横幅 -->
+  <div align="center">
+    <img src="https://raw.githubusercontent.com/Yinfeng-Lii/image/main/fs.png" alt="Yinfeng Li's Personal Header Banner" style="width: 100%;">
+  </div>
 
-- :school: My academic studies began with a Bachelor's degree in **Automation** from **Shandong University of Science and Technology**.
+  <!-- 导航栏 -->
+  <div align="center">
+    <br>
+    <a href="#about-me"><img src="https://img.shields.io/badge/-About%20Me-555?style=for-the-badge&logo=user&logoColor=white" alt="About Me"/></a>&nbsp;
+    <a href="#skills"><img src="https://img.shields.io/badge/-Core%20Skills-555?style=for-the-badge&logo=cogs&logoColor=white" alt="Skills"/></a>&nbsp;
+    <a href="#projects"><img src="https://img.shields.io/badge/-Projects-555?style=for-the-badge&logo=rocket&logoColor=white" alt="Projects"/></a>&nbsp;
+    <a href="#contact"><img src="https://img.shields.io/badge/-Contact-555?style=for-the-badge&logo=envelope&logoColor=white" alt="Contact"/></a>
+    <br>
+  </div>
 
-- :man_student: I am a passionate postgraduate student currently **in MSc  Robotics** at the **University of Manchester**. 
+  <h2 id="about-me">👋 About me</h2>
+  <ul>
+    <li>🌏 I am from China.</li>
+    <li>🎓 My academic studies began with a Bachelor's degree in <strong>Automation</strong> from <strong>Shandong University of Science and Technology</strong>.</li>
+    <li>👨‍🎓 I am a passionate postgraduate student currently <strong>in MSc Robotics</strong> at the <strong>University of Manchester</strong>.</li>
+    <li>🎥 Growing up with WALL·E, The Matrix, Transformers, and Pacific Rim, I found that movies were not just entertainment — they were the very beginning of my journey into robotics.</li>
+    <li>📄 <strong>My CV:</strong> <a href="https://github.com/Yinfeng-Lii/CV/blob/0d54848cf710fa66252ed376c14f5198be8a1158/YinfengLI-cv.pdf">View My CV</a></li>
+  </ul>
+  <hr>
 
-- :microscope: Growing up with WALL·E, The Matrix, Transformers, and Pacific Rim, I found that movies were not just entertainment — they were the very beginning of my journey into robotics.
+  <h2 id="career">🚀 Career Objectives and Research Interests</h2>
+  <p>My goal is to become a Robotics Perception Engineer. I'm passionate about using computer vision to solve real-world problems. I specialize in developing and optimizing 2D/3D visual perception algorithms for robotics, such as object recognition, scene segmentation, and 3D reconstruction.</p>
+  <hr>
 
-- 📄 **My CV:** [View My CV](https://github.com/Yinfeng-Lii/CV/blob/0d54848cf710fa66252ed376c14f5198be8a1158/YinfengLI-cv.pdf)
+  <h2 id="skills">💡 My Core Skill Areas</h2>
+  <details>
+    <summary><strong>💻 Programming & Software Development</strong></summary>
+    <p>
+      <a href="#"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"></a>
+      <a href="#"><img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white"></a>
+      <a href="#"><img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black"></a>
+      <a href="#"><img src="https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white"></a>
+      <a href="#"><img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white"></a>
+      <a href="#"><img src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white"></a>
+      <a href="#"><img src="https://img.shields.io/badge/Alpine_Linux-%230D597F.svg?style=for-the-badge&logo=alpine-linux&logoColor=white"></a>
+      <a href="#"><img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"></a>
+      <a href="#"><img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white"></a>
+      <a href="#"><img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"></a>
+      <a href="#"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a>
+      <a href="#"><img src="https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white"></a>
+    </p>
+  </details>
+  <details>
+    <summary><strong>🤖 Robotics & Embedded Systems</strong></summary>
+    <p>
+      - Experience with ROS1. <br>
+      - Programming in Microcontrollers (ARM, STM32). <br>
+      - Using Keil MDK for embedded systems.
+    </p>
+  </details>
+  <details>
+    <summary><strong>🧠 Control Systems</strong></summary>
+    <p>
+      - <strong>Algorithm Design:</strong> PID, State-Space, LQR. <br>
+      - <strong>Intelligent Control:</strong> Fuzzy Logic and Neural Networks . <br>
+      - <strong>Simulation:</strong> Using of MATLAB & Simulink for system modeling.
+    </p>
+  </details>
+  <details>
+    <summary><strong>👁️ Computer Vision</strong></summary>
+    <p>
+      - Using OpenCV for Image processing and analysis. <br>
+      - Through CAD & AutoCAD for mechanical design. <br>
+      - Experience with Circuit Simulation.
+    </p>
+  </details>
+  <hr>
 
----
-<a name="career"></a>
-## 🚀 Career Objectives and Research Interests
+  <h2 id="projects">🔬 PERSONAL PROJECTS</h2>
+  <table>
+    <tr>
+      <td>
+        <h3 align="center"><a href="https://github.com/Yinfeng-Lii/balance-vehicle" target="_blank">🔗 Design and Implementation of a Control System...</a></h3>
+        <a href="https://youtu.be/XHd4n2JKx90" target="_blank">
+          <div align="center"><img src="https://raw.githubusercontent.com/Yinfeng-Lii/image/main/balance.png" width="90%" alt="Balance vehicle project demo"></div>
+        </a><br>
+        <p>Implement a stable two-wheeled balancing vehicle control system using an STM32 controller by fusing data from multiple sensors and applying a PID control algorithm.</p>
+      </td>
+      <td>
+        <h3 align="center"><a href="https://github.com/Yinfeng-Lii/assisted-teaaching-system" target="_blank">🔗 "Spiritual Realm" Bionic School...</a></h3>
+        <br>
+        <a href="https://github.com/Yinfeng-Lii/assisted-teaaching-system/tree/main/lj/material" target="_blank">
+          <div align="center"><img src="https://raw.githubusercontent.com/Yinfeng-Lii/image/main/图片1.jpg" width="100%" alt="New Project 3"></div>
+        </a><br>
+        <p>The project aims to use virtual reality and AI to create an immersive learning system for disabled students, offering equal access, interactive education, and psychological support.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3 align="center"><a href="https://github.com/Yinfeng-Lii/License-Plate-Recognition" target="_blank">🔗 License Plate Recognition</a></h3>
+        <br>
+        <div align="center"><img src="https://raw.githubusercontent.com/Yinfeng-Lii/image/main/car1.jpg" width="90%" alt="License Plate Recognition"></div>
+        <br>
+        <p>The system allows users to select a license plate image and automatically performs plate detection and segmentation using various image processing techniques.</p>
+      </td>
+      <td>
+        <h3 align="center"><a href="https://github.com/Yinfeng-Lii/Smart-home" target="_blank">🔗 Smart home system</a></h3>
+        <br>
+        <a href="https://youtube.com/shorts/R5R-DXSckO8" target="_blank">
+          <div align="center"><img src="https://raw.githubusercontent.com/Yinfeng-Lii/image/main/smart home.png" width="90%" alt="New Project 4"></div>
+        </a><br>
+        <p>An STM32-based smart home system for remote control, environmental monitoring, automatic regulation, energy saving, and data security.</p>
+      </td>
+    </tr>
+  </table>
+  <hr>
 
- My goal is to become a Robotics Perception Engineer. I'm passionate about using computer vision to solve real-world problems. I specialize in developing and optimizing 2D/3D visual perception algorithms for robotics, such as object recognition, scene segmentation, and 3D reconstruction.
+  <h2 id="contact">📫 Get In Touch</h2>
+  <p>I am always open to discussing new projects, research ideas, or collaboration opportunities. Feel free to connect with me!</p>
+  <ul>
+    <li><strong>📧 Email:</strong> <a href="mailto:li15653530008@gmail.com">li15653530008@gmail.com</a></li>
+    <li><strong>💼 LinkedIn:</strong> <a href="http://www.linkedin.com/in/yinfeng-li-01528538a">www.linkedin.com/in/yinfeng-li-01528538a</a></li>
+    <li><strong>🐙 GitHub:</strong> <a href="https://github.com/Yinfeng-Lii">Yinfeng-Lii</a></li>
+  </ul>
 
----
-<a name="skills"></a>
-## 💡 My Core Skill Areas
-
-<details>
-  <summary><strong>💻 Programming & Software Development</strong></summary>
-  <p>
-   <a href="#"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" height="60" alt="Python"></a>
-  <a href="#"><img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" height="60" alt="C#"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" height="60" alt="MATLAB"></a>
-  <a href="#"><img src="https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white" height="60" alt="OpenCV"></a>
-  <a href="#"><img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white" height="60" alt="Jupyter Notebook"></a>
-  <a href="#"><img src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white" height="60" alt="LaTeX"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Alpine_Linux-%230D597F.svg?style=for-the-badge&logo=alpine-linux&logoColor=white" height="60" alt="Linux"></a>
-    <a href="#"><img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" height="60" alt="Java"></a>
-    <a href="#"><img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" height="60" alt="C"></a>
-    <a href="#"><img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" height="60" alt="Visual Studio Code"></a>
-     <a href="#"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" height="60" alt="GitHub"></a>
-     <a href="#"><img src="https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white" height="60" alt="Amazon DynamoDB"></a>
-  </p>
-</details>
-
-<details>
-  <summary>
-    <h3>🤖 Robotics & Embedded Systems</h3>
-  </summary>
-  <p>
-    - Experience with ROS1. <br>
-    - Programming in Microcontrollers (ARM, STM32). <br>
-    - Using Keil MDK for embedded systems.
-  </p>
-</details>
-
-<details>
-  <summary>
-    <h3>🧠 Control Systems</h3>
-  </summary>
-  <p>
-    - <strong>Algorithm Design:</strong> PID, State-Space, LQR. <br>
-    - <strong>Intelligent Control:</strong> Fuzzy Logic and Neural Networks . <br>
-    - <strong>Simulation:</strong> Using of MATLAB & Simulink for system modeling.
-  </p>
-</details>
-
-<details>
-  <summary>
-    <h3>👁️ Computer Vision</h3>
-  </summary>
-  <p>
-    - Using OpenCV for Image processing and analysis. <br>
-    - Through CAD & AutoCAD for mechanical design. <br>
-    - Experience with Circuit Simulation.
-  </p>
-</details>
-
----
-<a name="projects"></a>
-## 🔬 PERSONAL PROJECTS
-
-<table width="90%">
-  <!-- Balance vehicle -->
-    <td width="50%" valign="top">
-      <!-- 标题链接到 GitHub 仓库 -->
-      <h3 align="center">
-    <a href="https://github.com/Yinfeng-Lii/balance-vehicle" target="_blank">
-      🔗 Design and Implementation of a Control System for a Two-Wheeled Balancing Vehicle Based on Multi-Sensor Fusion
-    </a>
-  </h3>
-      <a href="https://youtu.be/XHd4n2JKx90" target="_blank">
-    <div align="center">
-      <img src="https://raw.githubusercontent.com/Yinfeng-Lii/image/main/balance.png" width="80%" alt="Balance vehicle project demo"/>
-    </div>
-  </a>
-      <br />
-  <p align="left">
-    Implement a stable two-wheeled balancing vehicle control system using an STM32 controller by fusing data from multiple sensors, such as gyroscopes and accelerometers, and applying a PID control algorithm to overcome the limitations of a single sensor.
-  </p>
-    </td>
-    <!-- 动作捕捉项目 -->
-   <td width="50%" valign="top">
-      <h3 align="center">
-        <a href="https://github.com/Yinfeng-Lii/assisted-teaaching-system" target="_blank">
-        🔗 "Spiritual Realm" Bionic School——Assisted Teaching System
-        </a>
-      </h3>
-      <br>
-  <br>
-      <a href="https://github.com/Yinfeng-Lii/assisted-teaaching-system/tree/main/lj/material" target="_blank">
-        <div align="center">
-          <img src="https://raw.githubusercontent.com/Yinfeng-Lii/image/main/图片1.jpg" width="100%" alt="New Project 3"/>
-        </div>
-      </a>
-      <br />
-      <p align="left">
-        The project aims to use virtual reality and AI to create an immersive learning system for disabled students, offering equal access, interactive education, and psychological support in a virtual classroom.
-      </p>
-    </td>
-  
-  </tr>
-
-  <tr>
-    <!-- 项目三: 新项目 -->
-     <td width="50%" valign="top">
-      <h3 align="center">
-        <a href="https://github.com/Yinfeng-Lii/License-Plate-Recognition" target="_blank">
-      🔗 License Plate Recognition
-        </a>
-      </h3>
-      <br />
-      <div align="center">
-      <img src="https://raw.githubusercontent.com/Yinfeng-Lii/image/main/car1.jpg" width="60%" alt="License Plate Recognition"/>
-      </div>
-      </a>
-      <br />
-      <p align="left">
-       The system allows users to select a license plate image via file opening and automatically performs plate detection and segmentation. Through grayscale conversion, binarization, morphological processing, and edge enhancement, it locates and recognizes characters. 
-      </p>
-    </td>
-    <!-- 项目四: 新项目 -->
-    <td width="50%" valign="top">
-      <h3 align="center">
-        <a href="https://github.com/Yinfeng-Lii/Smart-home" target="_blank">
-        🔗 Smart home system
-        </a>
-      </h3>
-       <br>
-      <a href="https://youtube.com/shorts/R5R-DXSckO8" target="_blank">
-        <div align="center">
-          <img src="https://raw.githubusercontent.com/Yinfeng-Lii/image/main/smart home.png" width="70%" alt="New Project 4"/>
-        </div>
-      </a>
-      <br />
-      <p align="left">
-        The project aims to develop an STM32-based smart home system for remote control, environmental monitoring, automatic regulation, energy saving, and data security to create a safer, more efficient home.
-      </p>
-    </td>
-  </tr>
-  
-</table>
-
----
-<a name="contact"></a>
-## 📫 Get In Touch
-
-
-- **📧 Email:** [li15653530008@gmail.com](mailto:li15653530008@gmail.com)
-- **💼 LinkedIn:** www.linkedin.com/in/yinfeng-li-01528538a
-- 🐙 **GitHub:** [Yinfeng-Lii](https://github.com/Yinfeng-Lii)
-
-</div>
-
----
-
-
-  </body>
+</body>
 </html>
